@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<robot name="model1">
+
+<link name="base_link">
+<visual>
+<geometry>
+<box size="0.6 0.2 0.2"/>
+</geometry>
+</visual>
+</link>
+
+<link name="laser">
+<visual>
+<geometry>
+<box size="0.2 0.2 0.2"/>
+</geometry>
+<origin rpy="0 0 0" xyz="0.3 0 0.3"/>
+</visual>
+</link>
+
+<joint name="base_tilt_joint" type="revolute">
+<parent link="base_link"/>
+<child link="laser"/>
+<origin xyz="0 0 0" rpy="0 -1.57 1.57"/>
+<axis xyz="1 0 0"/>
+<limit effort="3" velocity="1.178465545" lower="0.0" upper="6.28" /> 
+</joint>
+
+</robot>
