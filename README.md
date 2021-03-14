@@ -2,7 +2,21 @@
 
 Sample Video: [Youtube](https://youtu.be/Dk-FqrwyLrM)
 
-![Point Cloud](/picture/youtubepng.PNG)
+![Point Cloud](/resources/picture/youtubepng.PNG)
+
+
+
+
+## To summarize :
+
+** note: this project reconfigured and shared on github 2 years after it was made. There may be some mistakes **
+
+This project was created in order to convert from 2d laser scan data to point cloud 3d data, determine the nearest target point in Point Cloud datas.
+
+we used encoder data as a 3. axis or you can use servo motor angle data.
+
+look into, how I read encoder data and communicate with ROS [Read and publish encoder datas](https://github.com/zafersn/ROS-LaserScan-To-Pointcloud-Odometry/blob/master//resources/arduino-code/pozisyon_control.ino)
+
 
 
 ## The steps to run the project :
