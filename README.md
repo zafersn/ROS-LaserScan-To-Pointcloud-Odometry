@@ -9,7 +9,7 @@ Sample Video: [Youtube](https://youtu.be/Dk-FqrwyLrM)
 
 ## To summarize :
 
-** note: this project reconfigured and shared on github 2 years after it was made. There may be some mistakes **
+**note: this project reconfigured and shared on github 2 years after it was made. There may be some mistakes**
 
 This project was created in order to convert from 2d laser scan data to point cloud 3d data, determine the nearest target point in Point Cloud datas.
 
