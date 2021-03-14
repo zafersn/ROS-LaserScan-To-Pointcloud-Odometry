@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<launch>
-
-  <node pkg="urg_node" type="urg_node" name="urg_node"/>
-  <include file="$(find lidar_package)/launch/tilt_model_rviz.launch" />
-
-</launch>
-
-
