@@ -17,7 +17,7 @@ we used encoder data as a 3. axis or you can use servo motor angle data.
 
 look into, how I read encoder data and communicate with ROS [Read and publish encoder datas](https://github.com/zafersn/ROS-LaserScan-To-Pointcloud-Odometry/blob/master//resources/arduino-code/pozisyon_control.ino)
 
-if you would like to know that to provide communication between ros and other embedded device ( without heavy ros packages) over the serial, look this assey: https://zafersn.medium.com/how-to-communicate-directly-with-ros-over-serial-7b792c640de7
+if you would like to know that to provide communication between ros and other embedded device ( without heavy ros packages) over the serial, look this essay: https://zafersn.medium.com/how-to-communicate-directly-with-ros-over-serial-7b792c640de7
 
 ## The steps to run the project :
 
